@@ -1,33 +1,56 @@
-
+import java.awt.Point;
 /**
- * Write a description of class Show here.
+ * This class represents an instance 
+ * of a show
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author John Howell
+ * @version 2016/11/28
  */
 public class Show
 {
-    // instance variables - replace the example below with your own
-    private int x;
+    Movie movie;
+    String date;
+    String time;
+    Theater theater;
 
     /**
      * Constructor for objects of class Show
      */
-    public Show()
+    public Show(Movie movie, String date,String time)
     {
-        // initialise instance variables
-        x = 0;
+//        this.movie = movie;
+//        this.date = date;
+//        this.time = time;
+//        
     }
 
-    /**
-     * An example of a method - replace this comment with your own
-     * 
-     * @param  y   a sample parameter for a method
-     * @return     the sum of x and y 
+    /**   
+     * Returns the title of the movie
+     * @return     the movie title
      */
-    public int sampleMethod(int y)
+    public String getTitle()
     {
-        // put your code here
-        return x + y;
+        //return movie.getTitle();
+        return null;
+    }
+    
+    /**
+     * Returns the date of the movie
+     * @return Date of the movie playing
+     */
+    public String getDate()
+    {
+        //return date;
+        return null;
+    }
+    
+    /**
+     * Returns the time the movie is playing
+     * @return Time
+     */
+    public String getTime()
+    {
+        //return time;
+        return null;
     }
 }
